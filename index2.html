@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>CALZADO DEPORTIVO</title>
+</head>
+<body>
+    <section class="contenido">
+        <div class="mostrador" id="mostrador">
+            <div class="fila">
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="ryzen.jpg" alt="">
+                    </div>
+                    <p class="descripcion">Procesador AMD Ryzen 9 7900X / Socket AM5 / 4.7GHz / 12 núcleos 24 hilos / Gráficos Integrados</p>
+                    <span class="precio">$ 9,000</span>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="HDD.jpg"">
+                    </div>
+                    <p class="descripcion" id>Disco Duro Interno 1TB 3.5 SATA3 7200RPM Nuevo WD WD10EZEX </p>
+                    <span class="precio">$ 800</span>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="ram.png" alt="">
+                    </div>
+                    <p class="descripcion">Memoria RAM XPG Z1 DDR4 3200MHz 16GB (2x8GB)
+                    </p>
+                    <span class="precio">$ 863</span>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="tarejta.jpg" alt="">
+                    </div>
+                    <p class="descripcion">Tarjeta Madre Asus ROG STRIX B550-A GAMING</p>
+                    <span class="precio">$ 3,800</span>
+                </div>
+            </div>
+            <div class="fila">
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="gpu.png" alt="">
+                    </div>
+                    <p class="descripcion">Tarjeta de Video Gigabyte NVIDIA GeForce RTX 3060 WINDFORCE OC / 12GB</p>
+                    <span class="precio">$ 6,000</span>
+                </div>
+                </div>
+            </div> 
+        </div>
+        <!-- CONTENEDOR DEL ITEM SELECCIONADO -->
+        <div class="seleccion" id="seleccion">
+            <div class="cerrar" onclick="cerrar()">
+                &#x2715
+            </div>
+            <div class="info">
+                <img src="img/1.png" alt="" id="img">
+                <h2 id="modelo">NIKE MODEL 1</h2>
+                <p id="descripcion">D</p>
+
+                <span class="precio" id="precio">$ 130</span>
+
+                <div class="fila">
+                    <div class="size">
+                        <label for="">SIZE</label>
+                        <select name="" id="">
+                            <option value="">1</option>
+                            <option value="">2</option>
+                            <option value="">3</option>
+                            <option value="">+4</option>
+                        </select>
+                    </div>
+                    <button>AGREGAR AL CARRITO</button>
+                </div>
+            </div>
+        </div>
+        <center> <p><h1><br> <a href="Ejemplo2.html">Inicio</a> </center></br></h1></p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

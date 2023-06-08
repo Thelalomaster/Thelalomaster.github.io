@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>CALZADO DEPORTIVO</title>
+</head>
+<body>
+    <section class="contenido">
+        <div class="mostrador" id="mostrador">
+            <div class="fila">
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="teclado.png" alt="">
+                    </div>
+                    <p class="descripcion">Teclado Gamer DeepCool KB500 RGB TKL / Teclado Mecánico /</p>
+                    <span class="precio">$ 1,000</span>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="mouse.jpg" alt="">
+                    </div>
+                    <p class="descripcion" id>Mouse Gamer Munfrost Triton White Glossy / Óptico / USB / </p>
+                    <span class="precio">$ 629</span>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="camara.jpg" alt="">
+                    </div>
+                    <p class="descripcion">Camara Web FHD Game Factor WG400 / 1080P-30FPS
+                    </p>
+                    <span class="precio">$ 550</span>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="monitor.png" alt="">
+                    </div>
+                    <p class="descripcion">Monitor Gamer Curvo AOC C27G2 LED 27" / Full HD / FreeSync / 165Hz / HDMI / Negro / C27G2 /</p>
+                    <span class="precio">$ 5,200</span>
+                </div>
+            </div>
+            <div class="fila">
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="bocinas.jpg" alt="">
+                    </div>
+                    <p class="descripcion">Bocinas para computadora Logitech Z120 2.0 3.5mm/ USB Blanco / 980-000573 /</p>
+                    <span class="precio">$ 500</span>
+                </div>
+                </div>
+            </div> 
+        </div>
+        <!-- CONTENEDOR DEL ITEM SELECCIONADO -->
+        <div class="seleccion" id="seleccion">
+            <div class="cerrar" onclick="cerrar()">
+                &#x2715
+            </div>
+            <div class="info">
+                <img src="img/1.png" alt="" id="img">
+                <h2 id="modelo">NIKE MODEL 1</h2>
+                <p id="descripcion">Descripción Modelo 1</p>
+
+                <span class="precio" id="precio">$ 130</span>
+
+                <div class="fila">
+                    <div class="size">
+                        <label for="">SIZE</label>
+                        <select name="" id="">
+                            <option value="">1</option>
+                            <option value="">2</option>
+                            <option value="">3</option>
+                            <option value="">+4</option>
+                        </select>
+                    </div>
+                    <button>AGREGAR AL CARRITO</button>
+                </div>
+            </div>
+        </div>
+        <center> <p><h1><br> <a href="Ejemplo2.html">Inicio</a> </center></br></h1></p>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
